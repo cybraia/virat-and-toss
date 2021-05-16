@@ -7,4 +7,3 @@ If you feel the implementation of the teleportation algorithm in the jupyter not
 <br>
 Github pages is published from the Github-pages branch.
 <br>
-Huge thanks to [shreyaskaundinya](https://github.com/shreyaskaundinya) and [cybraia](https://github.com/cybraia) for helping in the styling part of the website.
