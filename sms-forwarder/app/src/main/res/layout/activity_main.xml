@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Forward SMS to" android:textSize="16sp" />
+    <EditText android:id="@+id/dest" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="phone"
+        android:hint="+911234567890" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="If message contains" android:textSize="16sp" />
+    <EditText android:id="@+id/keyword" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="text" android:hint="SBM" />
+
+    <Button android:id="@+id/save" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Save" />
+
+    <Switch android:id="@+id/enabled" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="24dp"
+        android:text="Forwarding enabled" />
+</LinearLayout>
